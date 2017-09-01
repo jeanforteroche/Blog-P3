@@ -23,9 +23,9 @@ class controleurChapitre {
     }
 
     public function commenter($auteur, $contenu, $idchapChapitre) {
-        // Enregoistre le commentaire dans la base
+        // Enregistre le commentaire dans la base
         $this->commentaire->ajouterCommentaire($auteur, $contenu, $idchapChapitre);
-        // actualise la vuie du chapitre.
+        // actualise la vue du chapitre.
         $this->chapitre($idchapChapitre);
     }
 
