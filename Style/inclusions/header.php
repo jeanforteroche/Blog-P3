@@ -15,8 +15,6 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.php">Accueil</a></li>
-            <li><a href="#">A propos de moi</a></li>
-            <li><a href="#">Me Contacter</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Liste des Chapitres <span class="caret"></span></a>
               <ul class="dropdown-menu">
